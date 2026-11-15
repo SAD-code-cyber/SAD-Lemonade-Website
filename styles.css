@@ -1,0 +1,207 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+/* Style rule for images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #808080;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.5em 1em;
+     
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #f8c8dc;
+    overflow: auto;
+    font-family:Verdana, Arial, Sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.two-column-layout { 
+
+    display: flex; 
+    justify-content: space-between; 
+    padding: 2%;  
+
+} 
+.column { 
+    flex-basis: 50%;  
+} 
+.action {
+    font-size: 1.75em;
+    color: #ffff00;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pink-lemonade {
+    color: #ff3366;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.raspberry-lemonade {
+    color: #e30b5c;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blueberry-lemonade {
+    color: #3399ff;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+.yellow-lemonade{
+  color: #ffff00;
+  font-style: italic;
+  
+}
+
+h3 {
+    color: #fff;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    color: #3399ff;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Style for Herbs  */
+.Herbs {
+    color: #4caf50;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Style for Fruits  */
+.Fruits {
+    color: #2196f3;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Style for Spices  */
+.Spices {
+    color: #ff0000;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ol li,
+ul li {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center ;
+    color: #fff;
+    font-style: italic;
+}
+
+th, td {
+    border: 1px solid #fff; 
+    padding: 8px;
+    text-align: center;
+    color: #fff; 
+    font-style: italic;
+}
+
+/* @media */
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+
+p {
+    color: #fff;
+    font-style: italic; 
+}
+
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    font-size: 3em;
+    color: #ffb6c1;
+    font-style: italic;
+}
+
+header h1 {
+    font-style: italic;
+    margin: 10px 0;
+}
+small{
+  font-style: italic;
+  color: #953553
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.65em;
+    clear: left;
+    padding: 10px;
+    color: #e37383; 
+}
+
